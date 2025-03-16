@@ -4,15 +4,30 @@
     margin: 20px auto;
     border-collapse: collapse;
     font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+.transactionHistory thead {
+    background-color: #bbbec1;
+    text-transform: uppercase;
 }
 
 .transactionHistory th,
 .transactionHistory td {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 12px 15px;
+    border: 1px solid #ffffff;
     text-align: center;
+    font-size: 14px;
 }
 
-.transactionHistory thead {
-    background-color: #f3f6f9;
+/* Чётные строки тела таблицы */
+.transactionHistory tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* При наведении подсвечиваем строку */
+.transactionHistory tbody tr:hover {
+    background-color: #e2e1e1;
 }
