@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1e0700a2-5183-4291-85cc-2065a036a683",
+    "type": "invoice",
+    "amount": "964.82",
+    "currency": "LRD"
+  },
+  {
+    "id": "2d40dd2b-1234-5678-9abc-def012345678",
+    "type": "payment",
+    "amount": "686.50",
+    "currency": "WST"
+  },
+  {
+    "id": "44dca67a-8e5a-4798-bf8e-b15efd4e1abd",
+    "type": "invoice",
+    "amount": "125.00",
+    "currency": "USD"
+  },
+  {
+    "id": "ea8ed3dc-2b68-4a53-905a-53ecb0adef33",
+    "type": "withdrawal",
+    "amount": "527.80",
+    "currency": "ALL"
+  },
+  {
+    "id": "63ca02f9-d637-445a-8bf3-18090de5fe67",
+    "type": "deposit",
+    "amount": "862.44",
+    "currency": "AUD"
+  },
+  {
+    "id": "ed0263e8-59a5-4bf1-87e0-2bb88e53dc34",
+    "type": "withdrawal",
+    "amount": "907.00",
+    "currency": "USD"
+  },
+  {
+    "id": "9c5c25fb-1a95-4b2f-8d1f-4c4426d677cc",
+    "type": "invoice",
+    "amount": "14.79",
+    "currency": "PYG"
+  }
+]
