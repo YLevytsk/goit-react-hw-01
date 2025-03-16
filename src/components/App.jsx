@@ -1,6 +1,6 @@
 import React from "react";
-import Profile from "./components/Profile/Profile";
-import userData from "./userData.json";
+import Profile from "./Profile/Profile";  // корректный относительный путь
+import userData from "../userData.json";   // поднимаемся из components в src
 
 const App = () => {
   return (
@@ -17,4 +17,5 @@ const App = () => {
 };
 
 export default App;
+
 
