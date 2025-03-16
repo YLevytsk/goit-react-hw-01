@@ -1,12 +1,30 @@
+/* Обеспечим, что html и body занимают всю высоту окна */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Центрирование содержимого страницы */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6f9;
+    /* можно изменить фон по необходимости */
+}
+
+/* Стили карточки профиля */
 .profile {
     width: 250px;
-    margin: 20px auto;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
     text-align: center;
+    /* margin больше не нужен, т.к. центрирование обеспечивается flex-контейнером body */
 }
 
 .description {
